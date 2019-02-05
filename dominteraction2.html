@@ -1,0 +1,21 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+
+    <title>SET08401 - Interacting with the DOM</title>
+</head>
+
+<body>
+    <p><a href="#" onClick="addMessage();">Click Me</a></p>
+    <h1>OUTPUT:</h1>
+    <ul id='output'></ul>
+
+    <script>
+        function addMessage() {
+            document.getElementById("output").innerHTML += "<p><li>HELLO WORLD</li></p>"
+        }
+    </script>
+</body>
+
+</html>
